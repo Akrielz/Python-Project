@@ -1,0 +1,9 @@
+cd pack_env
+ls
+create_archive archive test_img.png test_folder nothing.txt
+list_content archive
+cd ..
+cd unpack_env
+(copy paste the archive.aky_zip in unpack_env)
+unpack_full archive
+unpack archive archive.zip nothing.txt
